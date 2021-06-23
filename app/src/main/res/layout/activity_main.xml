@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:layout_centerHorizontal="true"
+        android:text="Quản lý sinh viên"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_class"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_appname"
+        android:layout_marginTop="70dp"
+        android:layout_marginHorizontal="18dp"
+        android:text="Quản lý lớp học" />
+
+    <Button
+        android:id="@+id/btn_student"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_class"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="18dp"
+        android:text="Quản lý sinh viên" />
+
+    <Button
+        android:id="@+id/btn_dang_ky"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_student"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="18dp"
+        android:text="Đăng ký tín chỉ" />
+    <Button
+        android:id="@+id/btn_stat"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_dang_ky"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="18dp"
+        android:text="Thống kê" />
+
+</RelativeLayout>
